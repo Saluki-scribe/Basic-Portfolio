@@ -33,11 +33,17 @@
             <div class="centered">
                 <h2>Contact</h2>
                 <div id="main-content-line"></div>
-                <div class="about-content">
-                    <img src="assets/images/me_professional.jpg" alt="Tara Nelson, web developer" id="profile-picture" />
-                    <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    </p>
+                <div class="form-container">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="John Smith">
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="emailAddress" name="emailaddress" placeholder="example@gmail.com">
+
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" style="height:120px"></textarea>
+
+                    <input type="submit" value="Submit">
                 </div>
             </div>
         </div>

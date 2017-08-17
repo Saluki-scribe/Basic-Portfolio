@@ -19,8 +19,8 @@ p {
     width: 250px;
     float: left;
     display: block;
-    padding: 15px 0px;
-    margin-top: 30px;
+    padding: 20px 0px;
+    margin-top: 10px;
     margin-left: 100px;
     text-align: center;
 }
@@ -37,7 +37,7 @@ span {
 
 header {
     background-color: white;
-    height: 50px;
+    height: 40px;
     padding-bottom: 37px;
     margin: 0;
 }
@@ -45,7 +45,7 @@ header {
     width: 15%;
     float: left;
     clear: right;
-    margin: 40px 15px;
+    margin: 30px 15px;
 }
 
 #menu-item-push { 
@@ -113,6 +113,40 @@ header {
     text-align: center;
     margin-top: 20px;
 }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer; 
+}
+
+input[type=submit]:hover {
+    background-color: #3E908C;
+}
+
+
 
 .portfolio-align {
     margin: 40px;
