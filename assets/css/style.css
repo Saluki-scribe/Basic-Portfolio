@@ -29,6 +29,7 @@ p {
     height: 200px;
     width: 220px;
     float: left;
+    margin-right: 10px;
 }
 
 span {
@@ -241,10 +242,14 @@ footer {
 
 
 
-/*.about-content {
+.about-content {
     float: left;
+    
 }
-*/
+
+.about-content p {
+    line-height: 2;
+}
 
 /*.icon-element {
     height: 30px;
