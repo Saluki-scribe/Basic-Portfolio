@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/background.png");
+    background-image: url("../images/eight_horns.png");
 }
 
 h1, h2 {
@@ -20,6 +20,7 @@ p {
     float: left;
     display: block;
     padding: 15px 0px;
+    margin-left: 100px;
     text-align: center;
 }
 
@@ -34,14 +35,16 @@ span {
 }
 
 header {
-    background-color: gray;
+    background-color: white;
     height: 50px;
+    padding-bottom: 37px;
+    margin: 0;
 }
 .menu-item {
     width: 15%;
     float: left;
     clear: right;
-    margin: 10px 15px;
+    margin: 40px 15px;
     
 }
 #menu-item-push { 
@@ -51,21 +54,63 @@ header {
 .main-content {
     background-color: white;
     width: 650px;
-    /*margin: 13px 13px 13px 27px;*/
+    height: 550px;
+    margin: 13px 13px 13px 100px;
+    float: left;
+    clear: both;
+}
+.centered {
+    padding: 25px;
+}
+
+/*.about-content {
+    float: left;
+}
+*/
+
+/*.icon-element {
+    height: 30px;
+    width: 30px;
+    float: left;
+    clear: both;
+}*/
+
+
+/*#side-align {
+    background-color: white;
+    width: 270px;
+    float: left;
+    clear: right;
+    margin: 0px;
+}*/
+
+#stripe {
+    border: solid #4aaaa5;
     clear: both;
 }
 
 .side-bar {
     background-color: white;
+    height: 230px;
     width: 270px;
+    margin-left: 27px;
+    margin-top: 13px;
     float: left;
     clear: right;
 }
 
-#stripe {
-    border: solid #4aaaa5;
+#copy-text {
+    position: relative;
+    top: 30%;
+    left: 45%;
+    color: white;
+    font-size: 12px;
+    text-align: center;    
 }
 
 footer {
-    background-color: white;
+    position: relative;
+    background-color: #666666;
+    height: 100px;
+    clear: both;
 }

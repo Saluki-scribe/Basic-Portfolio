@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tara's Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="reset.css" />    
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 </head>
 <body>
+
+<!--Start code for all website page elements-->
+
     <div class="main-section">
+
+    <!--Start code for header and nav bar-->
         <header>
             <h1 id="title">Tara Nelson</h1>
             <div id="menu-item-push">
@@ -17,27 +24,56 @@
                 <a href="contact.html"><p class="menu-item">Contact</p></a>
             </div>
         </header>
+
+    <!--End code for header and nav bar-->
+
+    <!--Start code for main "about me" section-->
+
         <div class="main-content">
-            <h1>About Me</h1>
-            <hr>
-            <img src="assets/images/me_professional.jpg" alt="Tara Nelson, web developer" id="profile-picture" />
-            <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
-        </div>
-        <div class="side-bar">
-            <h2>Connect with Me</h2>
-            <hr>
-            <div id="icons">
-                <a href="https://github.com/Saluki-scribe" target="_blank"><img src="assets/images/icon_github.PNG" /></a>
-                <a href="https://www.linkedin.com/in/tarabnelson/" target="_blank"><img src="assets/images/icon_linkedin.PNG" /></a>
-                <a href="https://stackoverflow.com/users/8150349/tara-nelson?tab=profile" target="_blank"><img src="assets/images/icon_stackoverflow.PNG" /></a>
+            <div class="centered">
+                <h1>About Me</h1>
+                <hr>
+                <div class="about-content">
+                    <img src="assets/images/me_professional.jpg" alt="Tara Nelson, web developer" id="profile-picture" />
+                    <p>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                </div>
             </div>
         </div>
+
+    <!--End code for "about me" section-->
+
+    <!--Start code for the side bar-->
+
+        <div class="side-bar">
+            <div class="centered">
+            <h2>Connect with Me</h2>
+            <hr>
+            <div id="side-align">
+                <a href="https://github.com/Saluki-scribe" target="_blank"><img src="assets/images/icon_github.PNG" class="icon-item" height ="50" width="50"/></a
+                    >
+                <a href="https://www.linkedin.com/in/tarabnelson/" target="_blank"><img src="assets/images/icon_linkedin.PNG" class="icon-item" height ="50" width="50"/></a>
+                
+                <a href="https://stackoverflow.com/users/8150349/tara-nelson?tab=profile" target="_blank"><img src="assets/images/icon_stackoverflow.PNG" class="icon-item" height ="50" width="50"/></a>
+            </div>
+            </div>
+        </div>
+
+    <!--End code for the side bar-->
+
+    <!--Start code for decorative stripe and footer-->
+
         <div id="stripe"></div>
         <footer>
-            <p >&copy Copyright 2016 Tara Nelson</p>
+            <p id="copy-text">&copy Copyright 2016 Tara Nelson</p>
         </footer>
+
+    <!--End code for footer-->
+    
     </div>
+
+<!-- End code for all website page elements-->
+
 </body>
 </html>
