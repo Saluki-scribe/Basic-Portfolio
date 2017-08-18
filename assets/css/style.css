@@ -2,9 +2,27 @@ body {
     background-image: url("../images/eight_horns.png");
 }
 
-h1, h2, h3 {
-    color: #4aaaa5;
+/*Fonts*/
+
+h1 {
+    color: #722f37;
     font-family: 'Georgia', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #722f37;
+    font-family: 'Georgia', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #722f37;
+    font-family: 'Georgia', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 p {
@@ -13,28 +31,7 @@ p {
     float: left;
 }
 
-#title {
-    color: white;
-    background-color: #4aaaa5;
-    width: 250px;
-    float: left;
-    display: block;
-    padding: 20px 0px;
-    margin-top: 10px;
-    margin-left: 100px;
-    text-align: center;
-}
-
-#profile-picture {
-    height: 200px;
-    width: 220px;
-    float: left;
-    margin-right: 10px;
-}
-
-span {
-    background-color: #4aaaa5;
-}
+/*Header and Nav Bar*/
 
 header {
     background-color: white;
@@ -42,6 +39,18 @@ header {
     padding-bottom: 37px;
     margin: 0;
 }
+
+#title {
+    color: white;
+    background-color: #722f37;
+    width: 250px;
+    float: left;
+    display: block;
+    padding: 27px 0px;
+    margin-left: 100px;
+    text-align: center;
+}
+
 .menu-item {
     width: 15%;
     float: left;
@@ -61,6 +70,9 @@ header {
     padding: 0 30px 0 20px;
     margin-left: 10px;
 }
+
+/*Main Content Section*/
+
 .main-content {
     background-color: white;
     width: 650px;
@@ -70,23 +82,10 @@ header {
     clear: both;
 }
 
-.main-content-portfolio {
-    background-color: white;
-    width: 650px;
-    height: 800px;
-    margin: 13px 13px 30px 100px;
-    float: left;
-    clear: both;
-}
-
 #main-content-line {
     background-color: lightgray;
     height: 2px;
     margin-bottom: 20px;
-}
-
-.centered {
-    padding: 25px;
 }
 
 .side-bar {
@@ -105,7 +104,6 @@ header {
     margin-bottom: 20px;
 }
 
-
 #icon-align a {
     margin: 3px;
 }
@@ -115,39 +113,39 @@ header {
     margin-top: 20px;
 }
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+/*Centers the "About Me" and "Connect with Me" titles*/
+.centered {
+    padding: 25px;
 }
 
-input[type=email], select, textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+/*ABOUT Main Content Section*/
+
+.main-content-portfolio {
+    background-color: white;
+    width: 650px;
+    height: 800px;
+    margin: 13px 13px 30px 100px;
+    float: left;
+    clear: both;
 }
 
-input[type=submit] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 8px 20px;
-    border: none;
-    cursor: pointer; 
+#profile-picture {
+    height: 200px;
+    width: 220px;
+    float: left;
+    margin-right: 10px;
 }
 
-input[type=submit]:hover {
-    background-color: #3E908C;
+.about-content {
+    float: left;
+    
 }
 
+.about-content p {
+    line-height: 2;
+}
 
+/*PORTFOLIO Main Content Section*/
 
 .portfolio-align {
     margin: 40px;
@@ -196,31 +194,45 @@ input[type=submit]:hover {
     bottom: -100px;    
 }
 
+/*CONTACT Main Content Section*/
 
-/*.portfolio-align p {
-    padding: 10px 0;
-    margin-top: -50px;
-    margin-left: 0px;
-    width: 240px;
-    float: left;
-    text-align: center;
-    color: white;
-    background-color: #4aaaa5;
-}*/
-
-
-/*#portfolio-heading {
-    color: white;
-    background-color: #4aaaa5;
-    width: 240px;
-    display: block;
-    padding: 15px 0px;
-    text-align: center;
-    clear: both;
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
-*/
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #722f37;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer; 
+}
+
+input[type=submit]:hover {
+    background-color: #722f37;
+}
+
+
+/*FOOTER*/
+
 #stripe {
-    border: solid #4aaaa5;
+    border: solid #722f37;
     clear: both;
 }
 
@@ -235,34 +247,7 @@ input[type=submit]:hover {
 
 footer {
     position: relative;
-    background-color: #666666;
+    background-color: #323232;
     height: 100px;
     clear: both;
 }
-
-
-
-.about-content {
-    float: left;
-    
-}
-
-.about-content p {
-    line-height: 2;
-}
-
-/*.icon-element {
-    height: 30px;
-    width: 30px;
-    float: left;
-    clear: both;
-}*/
-
-
-/*#side-align {
-    background-color: white;
-    width: 270px;
-    float: left;
-    clear: right;
-    margin: 0px;
-}*/
