@@ -60,9 +60,8 @@ header {
 }
 
 #menu-item-push { 
-    /*float: right;*/
-    margin-right: 250px;
-    padding-right: -200px; 
+    float: right;
+    width: 500px; 
 }
 
 .border-item {
