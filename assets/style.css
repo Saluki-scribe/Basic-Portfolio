@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/eight_horns.png");
+    background-image: url("images/eight_horns.png");
 }
 
 /*Fonts*/
@@ -121,15 +121,6 @@ header {
 
 /*ABOUT Main Content Section*/
 
-.main-content-portfolio {
-    background-color: white;
-    width: 650px;
-    height: 800px;
-    margin: 13px 13px 30px 100px;
-    float: left;
-    clear: both;
-}
-
 #profile-picture {
     height: 200px;
     width: 220px;
@@ -147,6 +138,82 @@ header {
 }
 
 /*PORTFOLIO Main Content Section*/
+.main-content-portfolio {
+    background-color: white;
+    width: 650px;
+    height: 800px;
+    margin: 13px 13px 30px 100px;
+    float: left;
+    clear: both;
+}
+
+.portfolio-container {
+    height: 650px;
+    width: 600px;
+    margin: auto;
+}
+
+.portfolio-container p {
+    display: block;
+    width: 250px;
+    text-align: center;
+    background-color: #722f37;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#cyoa-pic {
+    height: 180px;
+    width: 270px;
+    background: url(images/me_princess.jpg)100% 0 no-repeat;
+    margin: 10px;
+    float: left;
+}
+
+#hanged-pic {
+    height: 180px;
+    width: 270px;
+    background: url(images/demon_cookie.jpg)100% 0 no-repeat;
+    margin: 10px;
+    float: right;
+}
+
+#rpg-pic {
+    height: 180px;
+    width: 270px;
+    background: url(images/demon_cookie.jpg)100% 0 no-repeat;
+    margin: 10px;
+    float: left;
+}
+
+#trivia-pic {
+    height: 180px;
+    width: 270px;
+    background: url(images/demon_cookie.jpg)100% 0 no-repeat;
+    margin: 10px;
+    float: right;
+}
+
+#horror-pic {
+    height: 180px;
+    width: 270px;
+    background: url(images/demon_cookie.jpg)100% 0 no-repeat;
+    margin: 10px;
+    float: left;
+}
+
+#monster-pic {
+    height: 180px;
+    width: 270px;
+    background: url(images/demon_cookie.jpg)100% 0 no-repeat;
+    margin: 10px;
+    float: right;
+}
+
+/* ORIGINAL PORTFOLIO CSS
+
+
 
 .portfolio-align {
     margin: 40px;
@@ -167,7 +234,6 @@ header {
     color: white;
     background-color: #722f37;
 }
-
 
 #text-block-1 {
     position: absolute;
@@ -194,7 +260,7 @@ header {
     left: 175px;
     bottom: -170px;    
 }
-
+*/
 /*CONTACT Main Content Section*/
 
 input[type=text], select, textarea {
