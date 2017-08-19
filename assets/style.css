@@ -1,8 +1,8 @@
 body {
     background: 
     linear-gradient(
-        rgba(114, 47, 55, .7),
-        rgba(114, 47, 55, .7)
+        rgba(36, 14, 17, 0.80),
+        rgba(36, 14, 17, 0.80)
     ),
 
     url("images/eight_horns.png");
@@ -40,7 +40,7 @@ p {
 /*HEADER and Nav Bar*/
 
 header {
-    background-color: white;
+    background-color: #DFDFDF;
     height: 40px;
     width: 100%;
     padding-bottom: 37px;
@@ -71,9 +71,9 @@ header {
 }
 
 .border-item {
-    border: solid 1px lightgray; 
-    border-top: white;
-    border-bottom: white;
+    border: solid 1px #323232; 
+    border-top: #DFDFDF;
+    border-bottom: #DFDFDF;
     padding: 0 30px 0 20px;
     margin-left: 10px;
 }
@@ -81,7 +81,7 @@ header {
 /*Main Content Section*/
 
 .main-content {
-    background-color: white;
+    background-color: #DFDFDF;
     width: 650px;
     height: 550px;
     margin: 13px 13px 30px 100px;
@@ -96,7 +96,7 @@ header {
 }
 
 .side-bar {
-    background-color: white;
+    background-color: #DFDFDF;
     height: 230px;
     width: 270px;
     margin-left: 27px;
@@ -106,8 +106,8 @@ header {
 }
 
 #side-content-line {
-    background-color: #EAEAEA;
-    height: 1px;
+    background-color: lightgray;
+    height: 1.5px;
     margin-bottom: 20px;
 }
 
@@ -145,7 +145,7 @@ header {
 
 /*PORTFOLIO Main Content Section*/
 .main-content-portfolio {
-    background-color: white;
+    background-color: #dfdfdf;
     width: 650px;
     height: 800px;
     margin: 13px 13px 30px 100px;
@@ -179,7 +179,7 @@ header {
         rgba(0, 0, 0, 0),
         rgba(0, 0, 0, 0)
     ),
-    url(images/me_princess.jpg) center no-repeat;
+    url(images/cyoa.jpg) center no-repeat;
     background-size: 100% 100%;
     margin: 10px;
 }
@@ -191,7 +191,7 @@ header {
         rgba(0, 0, 0, 0),
         rgba(0, 0, 0, 0)
     ),
-    url(images/me_princess.jpg) center no-repeat;
+    url(images/hanged.jpg) center no-repeat;
     background-size: 100% 100%;
     margin: 10px;
 }
@@ -203,7 +203,7 @@ header {
         rgba(0, 0, 0, 0),
         rgba(0, 0, 0, 0)
     ),
-    url(images/me_princess.jpg) center no-repeat;
+    url(images/rpg.jpg) center no-repeat;
     background-size: 100% 100%;
     margin: 10px;
 }
@@ -215,7 +215,7 @@ header {
         rgba(0, 0, 0, 0),
         rgba(0, 0, 0, 0)
     ),
-    url(images/me_princess.jpg) center no-repeat;
+    url(images/trivia.jpg) center no-repeat;
     background-size: 100% 100%;
     margin: 10px;
 }
@@ -227,7 +227,7 @@ header {
         rgba(0, 0, 0, 0),
         rgba(0, 0, 0, 0)
     ),
-    url(images/me_princess.jpg) center no-repeat;
+    url(images/horror.jpg) center no-repeat;
     background-size: 100% 100%;
     margin: 10px;
 }
@@ -239,7 +239,7 @@ header {
         rgba(0, 0, 0, 0),
         rgba(0, 0, 0, 0)
     ),
-    url(images/me_princess.jpg) center no-repeat;
+    url(images/monster.jpg) center no-repeat;
     background-size: 100% 100%;
     margin: 10px;
 }
@@ -256,7 +256,7 @@ header {
         rgba(0, 0, 0, .5),
         rgba(0, 0, 0, .5)
     ),
-    url(images/me_princess.jpg) center no-repeat;
+    url(images/cyoa.jpg) center no-repeat;
     background-size: 100% 100%;
     margin: 10px;
     float: left;
@@ -270,7 +270,7 @@ header {
         rgba(0, 0, 0, .5),
         rgba(0, 0, 0, .5)
     ),
-    url(images/me_princess.jpg) center no-repeat;    
+    url(images/hanged.jpg) center no-repeat;    
     background-size: 100% 100%;
     margin: 10px;
     float: right;
@@ -284,7 +284,7 @@ header {
         rgba(0, 0, 0, .5),
         rgba(0, 0, 0, .5)
     ),
-    url(images/me_princess.jpg) center no-repeat;
+    url(images/rpg.jpg) center no-repeat;
     background-size: 100% 100%;
     margin: 10px;
     float: left;
@@ -298,7 +298,7 @@ header {
         rgba(0, 0, 0, .5),
         rgba(0, 0, 0, .5)
     ),
-    url(images/me_princess.jpg) center no-repeat;    
+    url(images/trivia.jpg) center no-repeat;    
     background-size: 100% 100%;    
     margin: 10px;
     float: right;
@@ -312,7 +312,7 @@ header {
         rgba(0, 0, 0, .5),
         rgba(0, 0, 0, .5)
     ),
-    url(images/me_princess.jpg) center no-repeat;    
+    url(images/horror.jpg) center no-repeat;    
     background-size: 100% 100%;    
     margin: 10px;
     float: left;
@@ -326,7 +326,7 @@ header {
         rgba(0, 0, 0, .5),
         rgba(0, 0, 0, .5)
     ),
-    url(images/me_princess.jpg) center no-repeat;    
+    url(images/monster.jpg) center no-repeat;    
     background-size: 100% 100%;    
     margin: 10px;
     float: right;
