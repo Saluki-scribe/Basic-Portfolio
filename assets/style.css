@@ -1,5 +1,11 @@
 body {
-    background-image: url("images/eight_horns.png");
+    background: 
+    linear-gradient(
+        rgba(114, 47, 55, .7),
+        rgba(114, 47, 55, .7)
+    ),
+
+    url("images/eight_horns.png");
 }
 
 /*Fonts*/
@@ -157,16 +163,101 @@ header {
     display: block;
     width: 250px;
     text-align: center;
-    background-color: #722f37;
+    background-color: #323232;
     padding: 10px;
+    margin-top: 135px;
     color: white;
-    font-weight: bold;
+    font-weight: bold;    
 }
+
+/*Hover effects*/
+
+#cyoa-pic:hover {
+    height: 180px;
+    width: 270px;
+    background:      linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url(images/me_princess.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+
+#hanged-pic:hover {
+    height: 180px;
+    width: 270px;
+    background:      linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url(images/me_princess.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+
+#rpg-pic:hover {
+    height: 180px;
+    width: 270px;
+    background:      linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url(images/me_princess.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+
+#trivia-pic:hover {
+    height: 180px;
+    width: 270px;
+    background:      linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url(images/me_princess.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+
+#horror-pic:hover {
+    height: 180px;
+    width: 270px;
+    background:      linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url(images/me_princess.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+
+#monster-pic:hover {
+    height: 180px;
+    width: 270px;
+    background:      linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url(images/me_princess.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+
+/*Hover effect END*/
+
+/*Portfolio images*/
 
 #cyoa-pic {
     height: 180px;
     width: 270px;
-    background: url(images/me_princess.jpg)100% 0 no-repeat;
+    background:      
+    linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ),
+    url(images/me_princess.jpg) center no-repeat;
+    background-size: 100% 100%;
     margin: 10px;
     float: left;
 }
@@ -174,7 +265,13 @@ header {
 #hanged-pic {
     height: 180px;
     width: 270px;
-    background: url(images/demon_cookie.jpg)100% 0 no-repeat;
+    background:      
+    linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ),
+    url(images/me_princess.jpg) center no-repeat;    
+    background-size: 100% 100%;
     margin: 10px;
     float: right;
 }
@@ -182,7 +279,13 @@ header {
 #rpg-pic {
     height: 180px;
     width: 270px;
-    background: url(images/demon_cookie.jpg)100% 0 no-repeat;
+    background:      
+    linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ),
+    url(images/me_princess.jpg) center no-repeat;
+    background-size: 100% 100%;
     margin: 10px;
     float: left;
 }
@@ -190,7 +293,13 @@ header {
 #trivia-pic {
     height: 180px;
     width: 270px;
-    background: url(images/demon_cookie.jpg)100% 0 no-repeat;
+    background:      
+    linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ),
+    url(images/me_princess.jpg) center no-repeat;    
+    background-size: 100% 100%;    
     margin: 10px;
     float: right;
 }
@@ -198,7 +307,13 @@ header {
 #horror-pic {
     height: 180px;
     width: 270px;
-    background: url(images/demon_cookie.jpg)100% 0 no-repeat;
+    background:      
+    linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ),
+    url(images/me_princess.jpg) center no-repeat;    
+    background-size: 100% 100%;    
     margin: 10px;
     float: left;
 }
@@ -206,61 +321,19 @@ header {
 #monster-pic {
     height: 180px;
     width: 270px;
-    background: url(images/demon_cookie.jpg)100% 0 no-repeat;
+    background:      
+    linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ),
+    url(images/me_princess.jpg) center no-repeat;    
+    background-size: 100% 100%;    
     margin: 10px;
     float: right;
 }
 
-/* ORIGINAL PORTFOLIO CSS
+/*Portfolio images END*/
 
-
-
-.portfolio-align {
-    margin: 40px;
-}
-
-.portfolio-align img {
-    position: relative;
-    padding: 0px;
-    margin: 10px;
-    height: 190px;
-    width: 240px;
-    float: left;
-}
-.portfolio-align p {
-    padding: 10px 0;
-    width: 240px;
-    text-align: center;
-    color: white;
-    background-color: #722f37;
-}
-
-#text-block-1 {
-    position: absolute;
-    left: 175px;
-    bottom: 250px;
-}
-#text-block-2 {
-    position: absolute;
-    left: 435px;
-    bottom: 250px;
-}
-#text-block-3 {
-    position: absolute;
-    left: 175px;
-    bottom: 40px;
-}
-#text-block-4 {
-    position: absolute;
-    left: 435px;
-    bottom: 40px;
-}
-#text-block-5 {
-    position: absolute;
-    left: 175px;
-    bottom: -170px;    
-}
-*/
 /*CONTACT Main Content Section*/
 
 input[type=text], select, textarea {
